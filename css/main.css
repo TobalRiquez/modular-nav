@@ -31,8 +31,8 @@ body {
   background-color: #e2e2e2;
 }
 
- a {
-  color: #0074d9;;
+a {
+  color: #0074d9;
 }
 
 .masthead {
@@ -54,25 +54,15 @@ body {
 .nav li {
   display: inline-block;
 }
+
 a:hover {
   background-color: #0074d9;
   color: #fff;
 }
 
-@media only screen and (min-width: 25em) {
-
-}
-
 @media only screen and (min-width: 38em) {
 
-.masthead {
-      text-align: left;
-    }
-
-}
-
-@media only screen and (min-width: 60em) {
-
-
-
+  .masthead {
+    text-align: left;
+  }
 }
